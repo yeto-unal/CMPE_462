@@ -1,0 +1,135 @@
+{
+    "intents": [
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon.",
+          "Bye."
+        ]
+      },
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "music",
+        "patterns": [
+          "Suggest me a song.",
+          "Which song do you listen?",
+          "Can you tell me a good song",
+          "Which song do you prefer to listen to?"
+        ],
+        "responses": [
+          "Bohemian Rhapsody by Queen could be a great choice.",
+          "You could try Sultans of Swing by Dire Straits.",
+          "You can check Smooth Criminal by Michael Jackson",
+          "Stairway to Heaven by Led Zeppelin is my favorite. <3",
+          "Johnny B. Goode by Marty McFly."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "What do you call a fake noodle? An impasta.",
+          "To whoever stole my copy of Microsoft Office, I will find you. You have my Word!",
+          "What's the difference between ignorance and Apathy? I don't know and I don't care."
+        ]
+      },
+      {
+        "tag": "weather",
+        "patterns": [
+          "What is the weather like?",
+          "How is the weather?",
+          "Do you the weather?",
+          "Weather forecast?"
+        ],
+        "responses": [
+          "It is likely to rain.",
+          "It is sunny.",
+          "It can be rainy, take your umbrella.",
+          "Degree will be over 30 celcius"
+        ]
+      },
+      {
+        "tag": "movie",
+        "patterns": [
+          "Offer me a movie.",
+          "Can you tell me a good movie?",
+          "What is a great movie to watch?",
+          "Which movie do you like to watch?"
+        ],
+        "responses": [
+          "Back to the Future trilogy is a great option",
+          "Matrix starred by Keanu Reeves.",
+          "All the Star Wars movies are awesome.",
+          "Lord of the Rings Return of the King is a masterpiece.",
+          "Harry Potter series is a must watch!"
+        ]
+      },
+      {
+        "tag": "pl",
+        "patterns": [
+          "Which programming language is your favorite?",
+          "What is the best programming language is user friendly?"
+        ],
+        "responses": [
+          "Java is one of my favorite programming language.",
+          "Python which I am running on right now :)",
+          "You can try C++ if you are brave enough.",
+          "If you use mathematical calculations, you can try MATLAB."
+        ]
+      },
+      {
+        "tag": "covid",
+        "patterns": [
+          "What are the symptoms of COVID-19?",
+          "What is COVID-19?",
+          "Is COVID-19 fatal disease?"
+        ],
+        "responses": [
+          "Coronavirus disease 2019 (COVID-19) is a contagious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The first known case was identified in Wuhan, China in December 2019. The disease has since spread worldwide, leading to an ongoing pandemic. Symptoms of COVID-19 are variable, but often include fever, cough, headache, fatigue, breathing difficulties, and loss of smell and taste. Of those people who develop noticeable symptoms enough to be classed as patients, most (81%) develop mild to moderate symptoms (up to mild pneumonia), while 14% develop severe symptoms (dyspnea, hypoxia, or more than 50% lung involvement on imaging), and 5% suffer critical symptoms (respiratory failure, shock, or multiorgan dysfunction)."
+        ]
+      },
+      {
+        "tag":"age",
+        "patterns": [
+        "How old?",
+        "What is your age?",
+        "How old are you?",
+        "Age?"
+        ],
+        "responses":[
+        "I am 0001 0110 years old!",
+        "0001 0110 years and still counting!"
+        ]
+        }
+    ]
+  }
